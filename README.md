@@ -1,2 +1,4 @@
 # misc_scripts
-Miscellaneous scripts I've made
+These are a bunch of miscellaneous scripts I have made. 
+
+There is no order yet, but enjoy! 
