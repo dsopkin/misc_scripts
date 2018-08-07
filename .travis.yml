@@ -1,0 +1,11 @@
+# from 
+# https://stackoverflow.com/questions/20449707/using-travis-ci-for-testing-on-unix-shell-scripts
+language: bash
+
+before_script:
+    - curl -L "http://downloads.sourceforge.net/shunit2/shunit2-2.0.3.tgz" | tar zx
+
+script:
+    - bash equality_test.sh
+    
+notifications:
